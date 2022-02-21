@@ -86,6 +86,11 @@ p, table {
   margin-left: 50px;
   margin-bottom: 0;
 }
+#training ul {
+  padding-left: 27px;
+  margin-left: 50px;
+  margin-bottom: 0;
+}
 #language ul li {
   margin: 0;
 }
