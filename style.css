@@ -1,0 +1,135 @@
+body {
+  font-family: "Roboto", sans-serif;
+  width: 80%;
+  margin: 80px auto;
+}
+address {
+  width: 60%;
+  margin: 0.5em 2.5em;
+}
+p, table {
+  margin: 0 50px;
+  line-height: 30px;
+}
+.title-line {
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+.main-title h1 {
+  display: inline-block;
+  background-color: lightgray;
+  padding: 5px 15px 5px 20px;
+  margin: 0;
+  position: relative;
+  font-size: 36px;
+  letter-spacing: 5px;
+}
+.main-title h1::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 53px solid lightgray;
+  border-right: 53px solid transparent;
+  position: absolute;
+  right: -53px;
+  top: 0;
+}
+.present-address {
+  padding-top: 1.5em;
+}
+.present-address ul {
+  padding-left: 27px;
+  margin-left: 50px;
+}
+.present-address ul li {
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+.header-info {
+  display: flex;
+  margin-top: 10px;
+}
+.half-width {
+  width: 50%;
+}
+.profile img {
+  width: 200px;
+  float: right;
+}
+
+.section-title h2 {
+  display: inline-block;
+  background-color: lightgray;
+  padding: 5px 15px 5px 20px;
+  margin: 0;
+  position: relative;
+  font-size: 25px;
+  letter-spacing: 4px;
+  margin-top: 15px;
+}
+.section-title h2::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 40px solid lightgray;
+  border-right: 40px solid transparent;
+  position: absolute;
+  right: -40px;
+  top: 0;
+}
+#core-strength ul {
+  padding-left: 27px;
+  margin-left: 50px;
+}
+#language ul {
+  padding-left: 27px;
+  margin-left: 50px;
+  margin-bottom: 0;
+}
+#language ul li {
+  margin: 0;
+}
+section ul li {
+    padding-left: 1.5em;
+    margin-bottom: 15px;
+}
+table tr {
+    line-height: 2em;
+}
+table tr td {
+    vertical-align: top;
+}
+table tr td:first-child {
+  width: 220px;
+  font-weight: 700;
+}
+table tr td:nth-child(2) {
+  padding-left: 60px;
+}
+table tr td:nth-child(3) {
+  padding-left: 40px;
+}
+.examination {
+    margin-bottom: 30px;
+}
+.examination tr {
+    line-height: 1.5em;
+}
+.examination tr {
+    line-height: 1.5em;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+footer span {
+    display: block;
+    text-align: center;
+}
+footer img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
